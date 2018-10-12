@@ -1,0 +1,7 @@
+{
+  "nombre": "Israel",
+  "edad": 29,
+  "casado": null,
+  "tieneHijos": false,
+  "mascotas":{"nombre": "firulais" }
+}
