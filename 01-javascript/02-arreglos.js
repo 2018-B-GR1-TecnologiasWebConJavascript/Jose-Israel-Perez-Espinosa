@@ -29,3 +29,24 @@ console.log(arregloTotal)
 var arregloNextNum = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 arregloTotal.splice(arregloTotal.length, 0, ...arregloNextNum)
 console.log(arregloTotal)
+
+
+//Destructuracion de arreglos
+var israel = {
+    nombre: "Israel",
+    apellido: "Perez"
+}
+
+var jose = {
+    edad: 34,
+    casado: null,
+    mascota: {nombre: 'firulais'}
+}
+
+var israelPerez = {
+    ...israel,
+    ...jose,
+    edad: 26// si hay dos valores para la misma variable, toma el valor que aparece al último
+}
+console.log(israelPerez)
+
