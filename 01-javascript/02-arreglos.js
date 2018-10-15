@@ -12,9 +12,20 @@ console.log(arregloNumeros)
 arregloNumeros.splice(4, 0, 5, 6, 7, 8, 9)
 console.log(arregloNumeros)
 var indicenumSeis = arregloNumeros.indexOf(6) //devuelve el indice del numero a buscar
-arregloNumeros.splice(indicenumSeis,1)
+arregloNumeros.splice(indicenumSeis, 1)
 console.log(arregloNumeros)
-var arregloUno = arregloNumeros.slice(0,4)
-var arregloDos= arregloNumeros.slice(4,7)
+var arregloUno = arregloNumeros.slice(0, 4)
+var arregloDos = arregloNumeros.slice(4, 7)
 console.log(arregloUno)
 console.log(arregloDos)
+var arreglonumUno = [1]
+var arreglonumSeis = [6]
+//Destructuración de arreglos
+
+console.log(...arregloDos)
+console.log(7, 8, 9)
+var arregloTotal = [...arreglonumUno, ...arregloUno, ...arreglonumSeis, ...arregloDos]
+console.log(arregloTotal)
+var arregloNextNum = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+arregloTotal.splice(arregloTotal.length, 0, ...arregloNextNum)
+console.log(arregloTotal)
