@@ -78,7 +78,78 @@ function nombreEnMinusculas(nombre) {
 var arreglo = [1, 2, 3]
 
 arreglo.findIndex(
-    function(valorDelArreglo,indice,arreglo){
+    function (valorDelArreglo, indice, arreglo) {
         return 2;
     }
 )
+
+
+function restar(a, b) {
+    return a - b
+}
+
+console.log(restar());//undefined
+console.log(restar(6, 2))//ejecución de la función
+console.log('restar es tipo:', typeof restar); //tipo función
+console.log(restar);//definición de la función
+
+
+//Anonymous Function
+
+
+var ejemplo = function () {
+}//funcion anonima
+
+
+var israel = {
+    trabajo: function () {
+        //implementación
+    }
+}
+
+
+var arreglo = [
+    function () {
+        //implementacion
+    }
+]
+
+// Tipos de variables
+var variable; // NUNCA MAS
+let variableDos = 2; // USAR ASI
+variableDos = 3;
+
+const estatura = 1.43;//SIEMPRE QUE PUEDA USAR CONST
+const israel1 = {
+    nombre: 'Jose'
+}
+
+israel.nombre = 'Israel';
+
+const arregloUnoDos = [1, 2];
+arregloUnoDos[0] = 3;
+const nombre = 'jose';
+//nombre='israel'
+
+const casado = true;
+//casado='false'
+
+const hijos = null;
+//hijos=1;
+
+const ganarDinero = function () {
+}
+
+//NUNCA USAR LAS FUNCIONES ANÓNIMAS
+
+const elevarAlCuadrado = function (numero) {
+    return numero * numero;
+}
+
+//FAT ARROW FUNCTION =>
+const elevarAlCuadrado = (numero) => {
+    return numero * numero;
+}
+
+const elevarAlCuadradov2 = numero => numero * numero;
+const restar2Num = (numuno, numdos) => numuno - numdos;
