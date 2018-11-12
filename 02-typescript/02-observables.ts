@@ -3,7 +3,7 @@ declare var require: any;
 
 const rxjs = require('rxjs');
 const map = require('rjxs/operators').map;
-const distinc= require('rjxs/operators').distinc;
+const distinct= require('rjxs/operators').distinct;
 const numeros$ = rxjs.of( 1, 2, 3, 4, 5, 6);
 
 console.log(numeros$);
