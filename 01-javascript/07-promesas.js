@@ -1,5 +1,8 @@
 const fs = require('fs');
 const nombreDelArchivo='06-ejemplo.txt';
+
+
+
 const nuevaPromesa =(nombreDelArchivo)=>{
     return new Promise(
         (resolve,reject)=>{

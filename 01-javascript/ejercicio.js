@@ -1,4 +1,5 @@
 const fs = require('fs');
+const arreglo=['is','ra','el']
 function ejercicio(arregloStrings, callback){
     const respuestas =[];
     arregloStrings
@@ -14,11 +15,13 @@ function ejercicio(arregloStrings, callback){
                             nombreArchivo: nombreArchivo,
                             contenidoArchivo: contenido,
                             error: err,
-                        }
-                        respuestas.push(respuesta);
+                       }
+
+
                         const estaCompleto= arregloStrings.length===arregloStrings.length;
                     }
                 )
             }
         )
 }
+ejercicio(arreglo)

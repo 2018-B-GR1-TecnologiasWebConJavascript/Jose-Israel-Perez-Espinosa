@@ -9,6 +9,7 @@ var casado = false
 var hijos = null
 var dato;
 var fechadeNacimiento = new Date()
+
 var israel = {
     "nombre": "Jose",
     'segundoNombre': 'Israel',
@@ -52,5 +53,6 @@ if(-4){//truty
 }else{
     console.log('no')
 }
+
 
 
