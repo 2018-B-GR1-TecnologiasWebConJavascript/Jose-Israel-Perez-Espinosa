@@ -1,55 +1,99 @@
 // 02-observables.ts
-declare var require: any;
 
+declare var require: any;
 const rxjs = require('rxjs');
-const map = require('rjxs/operators').map;
-const distinct= require('rjxs/operators').distinct;
-const numeros$ = rxjs.of( 1, 2, 3, 4, 5, 6);
+const map = require('rxjs/operators').map;
+const distinct = require('rxjs/operators').distinct;
+const concat = require('rxjs/operators').concat;
+
+const numeros$ = rxjs.of(
+    1,
+    "Adrian",
+    1,
+    true,
+    {nombre: "Adrian"},
+    [1, 2, 3],
+    new Date()
+); //observable de cualquier cosa
 
 console.log(numeros$);
 
 numeros$
     .pipe(
+        distinct(), //el orden importa
         map(
-             (valorActual)=>{
-                return {     data: valoractual
-            }};
+            (valorActual) => {
+                return {
+                    data: valorActual
+                }
+            }
         )
     )
     .subscribe(
         (ok) => {
-            console.log('En ok', ok);
+            console.log('En ok', ok)
         },
         (error) => {
-            console.log('Error', error);
+            console.log('En error', error)
         },
-        () => { // complete
-            console.log('Completado');
+        () => {//complete
+            console.log('Completado')
         }
-    );
+    )
 
-
-const promesita=()=>{
-    return new Promise (
-        executor:(resolve,reject)=>{
-            if (correcto){
-            resolve(':)')}
-            else {reject(':(')}
-    }
-    );
+const promesita = (correcto) => {
+    return new Promise(
+        (resolve, reject) => {
+            if (correcto) {
+                resolve(':)')
+            }
+            else {
+                reject(':(')
+            }
+        }
+    )
 };
 
+const promesita$ = rxjs.from(promesita(false));
+/*
+promesita$
+    .subscribe(
+        (ok) => {
+            console.log('En promesita', ok)
+        },
+        (error) => {
+            console.log('Error en promesita', error)
+        },
+        () => {
+            console.log('Completado')
+        },
+    );
+*/
 
-const promesita$ = rxjs.from(promesita(correcto: true));
-promesita$.subscribe(
-    next: (ok)=>{
-        console.log('En promesita',ok)
-    },
-    error: (error)=>{
-        console.log('Error promesita',error);
-    },
-    complete:()=>{
-        console.log('completado');
-    }
+numeros$
+    .pipe(
+        concat(promesita$)
+    )
+    .pipe(
+        distinct(), //el orden importa
+        map(
+            (valorActual) => {
+                return {
+                    data: valorActual
+                }
+            }
+        )
+    )
+    .subscribe(
+        (ok) => {
+            console.log('En concat', ok)
+        },
+        (error) => {
+            console.log('En error', error)
+        },
+        () => {//complete
+            console.log('Completado')
+        }
+    )
 
-)
+;
