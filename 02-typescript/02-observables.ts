@@ -41,6 +41,9 @@ numeros$
         }
     )
 
+
+
+
 const promesita = (correcto) => {
     return new Promise(
         (resolve, reject) => {
@@ -55,7 +58,7 @@ const promesita = (correcto) => {
 };
 
 const promesita$ = rxjs.from(promesita(false));
-/*
+
 promesita$
     .subscribe(
         (ok) => {
@@ -68,7 +71,7 @@ promesita$
             console.log('Completado')
         },
     );
-*/
+
 
 numeros$
     .pipe(

@@ -197,16 +197,13 @@ main();*/
 
 
 
-import { Observable } from 'rxjs';
 
-const observable = new Observable(observer => {
-    setTimeout(() => {
-        observer.next('Hello from a Observable!');
-    }, 2000);
-});
 
-observable.subscribe(value => console.log(value));
-let pokemons = [{number: 1, name: 'Bulbasaur', type: 'planta, veneno'},
+
+
+
+
+const pokemons =[{number: 1, name: 'Bulbasaur', type: 'planta, veneno'},
     {number: 667, name: 'Litleo', type: 'fuego, normal'},
     {number: 152, name: 'Chikorita', type: 'planta'},
     {number: 4, name: 'Charmander', type: 'fuego'},
@@ -302,7 +299,7 @@ const pokeIndex = (nombre) => {
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//searchPokemon('Pichu');
+searchPokemon('Pichu');
 //updatePokemon(667, 'Litleo','fuego');
 //addPokemon(171, 'Pichu', 'electrico');
 //deletePokemon('pichu');
