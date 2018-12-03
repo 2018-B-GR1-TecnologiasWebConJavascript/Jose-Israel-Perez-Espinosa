@@ -3,13 +3,13 @@ const fs = require('fs');
 const rxjs = require('rxjs');
 const mergeMap = require('rxjs/operators').mergeMap;
 const map = require('rxjs/operators').map;
-
+//(727, incineroar,fuego, siniestro)
 
 const preguntaMenu = {
     type: 'list',
     name: 'opcionMenu',
     message: 'Elige una opción:',
-    choices: [ 'Actualizar', 'Crear', 'Buscar', 'Borrar',]
+    choices: ['Actualizar', 'Crear', 'Buscar', 'Borrar']
 };
 
 const preguntasBuscar = {type: 'input', name: 'numPoke', message: 'Ingrese el número del Pokemon a buscar: '};
@@ -31,24 +31,23 @@ const preguntasIngresar = [
 
 function main() {
     console.log('/////////////////  POKEDEX  /////////////////');
-    //vamos a correr primero la funcion inicializarBase
-    inicializarBase() //$ aqui tenemos un observable
-        .pipe(mergeMap(// ##### 1. PREGUNTAR OPCION #### //concatenamos con otro observable  con las de preguntas
+
+    inicializarBase()
+        .pipe(mergeMap(
             //EN este merge map tenemos la respuesta del usuario y de la base
             (respuestasBDD) => {
                 return preguntarMenu() //recibimos opcion menu, aqui ejecutamos esa funcion
                     .pipe(map((respuesta) => {
-                        //ya estamos dentro del observable aqui por lo tanto esto ya es una respuesta normal
-                        // el man se lo hizo para mandar un nuevo objeto que va a tener lo que esta en return
+
                         console.log("Su opcion es ", respuesta);
                         return {
                             respuestaUsuario: respuesta,
                             respuestasBDD: respuestasBDD
                         };
                     }));
-            }), // dependiendo de la opcion PREGUNTAMOS DEPENDIENDO LAS OPCIONES
+            }),
 
-            mergeMap(//####DEPENDIENDO DE LA OPCION HACER ALGO (crear, borrar, eliminar)
+            mergeMap(//depende de la opción escogida
                 (respuesta) => {
                     console.log("Se", respuesta);
                     switch (respuesta.respuestaUsuario.opcionMenu) {
@@ -57,12 +56,10 @@ function main() {
                         case 'Crear':
                             return rxjs.from(inquirer.prompt(preguntasIngresar))
                                 .pipe(map((Poke) => {
-                                    respuesta.poke = Poke; //a la respuesta recibida antes le agrego la respuesta del
-                                    // usuario a las preguntas hechas
+                                    respuesta.poke = Poke;
                                     return respuesta;
                                 }))
-                                .pipe(map(//###### EJECUTAR LA ACCION #########
-                                    //ya no necesitamos promesas ni observables por que ya sabemos datos y lo que queremos hacer
+                                .pipe(map(
                                     (respuesta) => {
                                         console.log('respuesta en accion', respuesta);
                                         switch (respuesta.respuestaUsuario.opcionMenu) {
@@ -72,7 +69,7 @@ function main() {
                                                 return respuesta;
                                         }
                                     }),
-                                    // ###### Guardar Base de Datos
+                                    // Guardar en la base de datos
                                     mergeMap((respuesta) => {
                                         return guardarBase(respuesta.respuestasBDD.bdd);
                                     }));
@@ -119,15 +116,12 @@ function main() {
                         case 'Actualizar':
 
 
-                            ////////////////////////////////////////////////////////////
                             return rxjs.from(inquirer.prompt(preguntasActualizar))
                                 .pipe(map((Poke) => {
-                                    respuesta.poke = Poke; //a la respuesta recibida antes le agrego la respuesta del
-                                    // usuario a las preguntas hechas
+                                    respuesta.poke = Poke;
                                     return respuesta;
                                 }))
-                                .pipe(map(//###### EJECUTAR LA ACCION #########
-                                    //ya no necesitamos promesas ni observables por que ya sabemos datos y lo que queremos hacer
+                                .pipe(map(
                                     (respuesta) => {
 
                                         const bdd = respuesta.respuestasBDD.bdd.Pokemons;
@@ -138,23 +132,25 @@ function main() {
 
 
                                         const pokeActualizado = respuesta.poke;
-                                        respuesta.respuestasBDD.bdd.Pokemons[pokeEncontrado] =pokeActualizado;
+                                        respuesta.respuestasBDD.bdd.Pokemons[pokeEncontrado] = pokeActualizado;
                                         return respuesta;
 
 
                                     }),
-                                    // ###### Guardar Base de Datos
+                                    //Guardar en la base de datos
                                     mergeMap((respuesta) => {
                                         return guardarBase(respuesta.respuestasBDD.bdd);
                                     }));
-                            ////////////////////////////////////////////////////////////////////////////7
 
 
                             break;
 
+
+
+
                     }
                 }))
-        .subscribe(// el subscribe es como el ultimo paso que dice ya ahora si ejecutate todo
+        .subscribe(
             (mensaje) => {
                 console.log(mensaje);
             }, (error) => {
@@ -166,9 +162,9 @@ function main() {
 }
 
 function inicializarBase() {
-    const leerBDD$ = rxjs.from(leerBDD()); //1. creamos un observable para leer la base de datos usando promesa leeRBDD()
+    const leerBDD$ = rxjs.from(leerBDD()); //Se crea un observable para leer la base de datos usando la  promesa leeRBDD()
     return leerBDD$
-        .pipe(//Para poder hacer trabajos con este observable
+        .pipe(
             mergeMap((RespuestaDeLeerBDD) => {
                 if (RespuestaDeLeerBDD.bdd) {
                     // truty / {}
@@ -222,8 +218,7 @@ function crearBDD() {
 }
 
 function preguntarMenu() {
-    return rxjs.from(inquirer.prompt(preguntaMenu)); //transformando en observable la respuesta de lo que haya escogido
-    //en preguntarMenu
+    return rxjs.from(inquirer.prompt(preguntaMenu)); //transformando en observable la respuesta de lo que haya escogido en preguntarMenu
 }
 
 function guardarBase(bdd) {
@@ -237,7 +232,7 @@ function guardarBase(bdd) {
             }
             else {
                 resolve({
-                    mensaje: 'Cambio realizados satisfactoriamente'
+                    mensaje: 'OK'
                 });
             }
         });
