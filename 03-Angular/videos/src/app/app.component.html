@@ -1,0 +1,30 @@
+<h1>Componente principal</h1>
+<!-- ul -> unordered list-->
+<!-- ol -> ordered list-->
+<ul>
+  <li><!-- il ->list item -->
+    <a routerLink="/inicio">Inicio</a><!-- anchor ->ancla -->
+  </li>
+
+  <li>
+    <a routerLink="/menu">Menu</a>
+    <ol>
+      <li>
+        <a routerLink="/menu/gestion-usuarios">Gestion Usuarios</a>
+
+      </li>
+      <li>
+      <a routerLink="/menu/gestion-productos">Gestion Productos</a>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a routerLink="login">Login</a>
+  </li>
+  <li>
+    <a routerLink="perfil">Perfil</a>
+  </li>
+
+
+</ul>
+<router-outlet></router-outlet>
