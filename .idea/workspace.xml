@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4386c19-9614-450d-bb27-5c1f234bf36c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascript/06-ejemplo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-typescript/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-login/ruta-login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-login/ruta-login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-login/ruta-login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-login/ruta-login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-perfil/ruta-perfil.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-perfil/ruta-perfil.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-perfil/ruta-perfil.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-perfil/ruta-perfil.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta404/ruta404.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta404/ruta404.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta404/ruta404.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta404/ruta404.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Angular/videos/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-callbacks/02-fs/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-callbacks/06-ejemplo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-01/pokemon/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-01/pokemon/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-01/pokemon/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-typescript/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-typescript/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-01/pokemon/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/examen-01/pokemon/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto1/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-701904541">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="51" />
+          <entry key="json" value="2" />
+          <entry key="ts" value="2" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="51" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="TypeScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="8261" />
+          <entry key="json" value="164" />
+          <entry key="ts" value="5" />
+          <entry key="txt" value="122" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="164" />
+          <entry key="JavaScript" value="8261" />
+          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="TypeScript" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Jose-Israel-Perez-Espinosa" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>push</find>
+      <find>forEach</find>
+      <find>_b.label</find>
+      <find>sent</find>
+      <find>concat</find>
+      <find>bdd.json</find>
+      <find>respuesta</find>
+      <find>respuestain</find>
+      <find>crear</find>
+      <find>fore</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01-javascript/06-callback-propio.js" />
+        <option value="$PROJECT_DIR$/01-javascript/ejercicio.js" />
+        <option value="$PROJECT_DIR$/01-javascript/Deber.js" />
+        <option value="$PROJECT_DIR$/01-javascript/israel.json" />
+        <option value="$PROJECT_DIR$/01-javascript/01-variables.js" />
+        <option value="$PROJECT_DIR$/01-javascript/07-promesas.js" />
+        <option value="$PROJECT_DIR$/02-typescript/02-observables.ts" />
+        <option value="$PROJECT_DIR$/proyecto1/App.js" />
+        <option value="$PROJECT_DIR$/02-typescript/02-observables.js" />
+        <option value="$PROJECT_DIR$/proyecto1/proyectoobservables.js" />
+        <option value="$PROJECT_DIR$/proyecto1/pokemon.json" />
+        <option value="$PROJECT_DIR$/proyecto1/proyecto1.1.js" />
+        <option value="$PROJECT_DIR$/02-typescript/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/02-typescript/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/ajax/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/operators/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/src/ajax/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/src/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/src/operators/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/src/testing/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/src/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/testing/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/rxjs/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/02-typescript/package.json" />
+      <path value="$PROJECT_DIR$/03-Angular/videos/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/ansi-escapes/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/batch/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/buffer-crc32/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/chardet/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/cli-cursor/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/cli-width/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/connect/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/external-editor/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/figures/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/inquirer/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/inquirer/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/inquirer/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/is-promise/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/keypress/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/multiparty/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/node.js/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/onetime/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/pause/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/restore-cursor/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/run-async/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/ajax/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/operators/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/ajax/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/operators/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/testing/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/testing/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/stream-counter/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/through/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/proyecto1/node_modules/uid2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name=".gitignore" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\02-typescript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\proyecto1" />
+      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\02-typescript" />
+      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\01-javascript" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.proyecto1.1.js">
+    <configuration name="02-observables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02-observables.js" working-dir="$PROJECT_DIR$/02-typescript">
+      <method v="2" />
+    </configuration>
+    <configuration name="07-promesas.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="07-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
+      <method v="2" />
+    </configuration>
+    <configuration name="App.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/proyecto1">
+      <method v="2" />
+    </configuration>
+    <configuration name="proyecto1.1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="proyecto1.1.js" working-dir="$PROJECT_DIR$/proyecto1">
+      <method v="2" />
+    </configuration>
+    <configuration name="proyectoobservables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="proyectoobservables.js" working-dir="$PROJECT_DIR$/proyecto1">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.App.js" />
+      <item itemvalue="Node.js.07-promesas.js" />
+      <item itemvalue="Node.js.02-observables.js" />
+      <item itemvalue="Node.js.proyectoobservables.js" />
+      <item itemvalue="Node.js.proyecto1.1.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.proyecto1.1.js" />
+        <item itemvalue="Node.js.proyectoobservables.js" />
+        <item itemvalue="Node.js.02-observables.js" />
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.07-promesas.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4386c19-9614-450d-bb27-5c1f234bf36c" name="Default Changelist" comment="" />
+      <created>1541369667599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541369667599</updated>
+      <workItem from="1541369668746" duration="489000" />
+      <workItem from="1541370222937" duration="21000" />
+      <workItem from="1541431549932" duration="2129000" />
+      <workItem from="1541444512010" duration="6177000" />
+      <workItem from="1542300189827" duration="671000" />
+      <workItem from="1542302052083" duration="2051000" />
+      <workItem from="1542304146492" duration="4000" />
+      <workItem from="1542315678335" duration="10283000" />
+      <workItem from="1542326047713" duration="8000" />
+      <workItem from="1542378734665" duration="1564000" />
+      <workItem from="1542393047360" duration="2703000" />
+      <workItem from="1542578639544" duration="1357000" />
+      <workItem from="1542580380055" duration="4758000" />
+      <workItem from="1543583982667" duration="612000" />
+      <workItem from="1543593915158" duration="10884000" />
+      <workItem from="1543846781968" duration="7818000" />
+      <workItem from="1543863394156" duration="2873000" />
+      <workItem from="1543877983960" duration="109000" />
+      <workItem from="1544644366607" duration="115000" />
+      <workItem from="1544644526616" duration="709000" />
+      <workItem from="1544645255370" duration="658000" />
+    </task>
+    <task id="LOCAL-00001" summary="Pokedex">
+      <created>1542395691998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542395691998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="observables ts corregidos">
+      <created>1543594915606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543594915607</updated>
+    </task>
+    <task id="LOCAL-00003" summary="proyecto: lee json, funciona todo menos el menú">
+      <created>1543856025942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543856025943</updated>
+    </task>
+    <task id="LOCAL-00004" summary="proyecto: lee json, funciona todo">
+      <created>1543866251692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543866251692</updated>
+    </task>
+    <task id="LOCAL-00005" summary="añadido gitignore">
+      <created>1544644737797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544644737797</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".idea tiene problemas">
+      <created>1544644981339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544644981339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55993000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7722096" visible="true" weight="0.31919643" />
+      <window_info id="Structure" order="1" sideWeight="0.22779043" side_tool="true" visible="true" weight="0.31919643" />
+      <window_info id="Favorites" order="2" sideWeight="0.50268817" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.52157736" visible="true" weight="0.28150573" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7157738" weight="0.16693944" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4784226" side_tool="true" weight="0.28150573" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/examen-01/pokemon/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pokedex" />
+    <MESSAGE value="observables ts corregidos" />
+    <MESSAGE value="proyecto: lee json, funciona todo menos el menú" />
+    <MESSAGE value="proyecto: lee json, funciona todo" />
+    <MESSAGE value="añadido gitignore" />
+    <MESSAGE value=".idea tiene problemas" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/2018-B-GR1-TecnologiasWebConJavascript/Jose-Israel-Perez-Espinosa&#10;&#10;# Conflicts:&#10;#&#9;02-typescript/.gitignore&#10;#&#9;proyecto1/.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/2018-B-GR1-TecnologiasWebConJavascript/Jose-Israel-Perez-Espinosa&#10;&#10;# Conflicts:&#10;#&#9;02-typescript/.gitignore&#10;#&#9;proyecto1/.gitignore" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05-callbacks/02-fs/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/0-is.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/ejercicio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/06-ejemplo.txt" />
+    <entry file="file://$PROJECT_DIR$/01-javascript/06-callback-propio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/clase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/israel.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/07-promesas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/Deber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="11" selection-start-line="17" selection-start-column="3" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/01-variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto1/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="263" column="39" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto1/proyectoobservables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="5" selection-start-column="18" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/02-arreglos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/03-funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto1/node_modules/rxjs/internal/util/subscribeToResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto1/pokemon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="589" selection-start-column="589" selection-end-column="589" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-typescript/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-javascript/04-operadores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto1/proyecto1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
