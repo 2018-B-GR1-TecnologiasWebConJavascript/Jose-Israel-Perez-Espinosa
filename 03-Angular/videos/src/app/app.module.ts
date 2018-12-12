@@ -10,6 +10,10 @@ import { RutaMenuComponent } from './rutas/ruta-menu/ruta-menu.component';
 import { Ruta404Component } from './rutas/ruta404/ruta404.component';
 import { RutaGestioUsuariosComponent } from './rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component';
 import { RutaGestioProductosComponent } from './rutas/ruta-gestio-productos/ruta-gestio-productos.component';
+import { RutaCrearProductoComponent } from './rutas/ruta-crear-producto/ruta-crear-producto.component';
+import { RutaActualizarProductoComponent } from './rutas/ruta-actualizar-producto/ruta-actualizar-producto.component';
+import { RutaCrearUsuarioComponent } from './rutas/ruta-crear-usuario/ruta-crear-usuario.component';
+import { RutaActualizarUsuarioComponent } from './rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component';
 
 @NgModule({
   declarations: [//aquí se declaran los componentes
@@ -20,7 +24,11 @@ import { RutaGestioProductosComponent } from './rutas/ruta-gestio-productos/ruta
     RutaMenuComponent,
     Ruta404Component,
     RutaGestioUsuariosComponent,
-    RutaGestioProductosComponent
+    RutaGestioProductosComponent,
+    RutaCrearProductoComponent,
+    RutaActualizarProductoComponent,
+    RutaCrearUsuarioComponent,
+    RutaActualizarUsuarioComponent
   ],
   imports: [//modulos
     BrowserModule,
