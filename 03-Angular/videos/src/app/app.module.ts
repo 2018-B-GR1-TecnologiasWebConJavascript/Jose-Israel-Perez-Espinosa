@@ -14,6 +14,7 @@ import { RutaCrearProductoComponent } from './rutas/ruta-crear-producto/ruta-cre
 import { RutaActualizarProductoComponent } from './rutas/ruta-actualizar-producto/ruta-actualizar-producto.component';
 import { RutaCrearUsuarioComponent } from './rutas/ruta-crear-usuario/ruta-crear-usuario.component';
 import { RutaActualizarUsuarioComponent } from './rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component';
+import { RutaVerDetalleUsuarioComponent } from './rutas/ruta-ver-detalle-usuario/ruta-ver-detalle-usuario.component';
 
 @NgModule({
   declarations: [//aquí se declaran los componentes
@@ -28,7 +29,8 @@ import { RutaActualizarUsuarioComponent } from './rutas/ruta-actualizar-usuario/
     RutaCrearProductoComponent,
     RutaActualizarProductoComponent,
     RutaCrearUsuarioComponent,
-    RutaActualizarUsuarioComponent
+    RutaActualizarUsuarioComponent,
+    RutaVerDetalleUsuarioComponent
   ],
   imports: [//modulos
     BrowserModule,

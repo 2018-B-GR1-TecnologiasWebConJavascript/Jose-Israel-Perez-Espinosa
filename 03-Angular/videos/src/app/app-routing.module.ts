@@ -11,6 +11,7 @@ import {RutaCrearProductoComponent} from "./rutas/ruta-crear-producto/ruta-crear
 import {RutaActualizarProductoComponent} from "./rutas/ruta-actualizar-producto/ruta-actualizar-producto.component";
 import {RutaCrearUsuarioComponent} from "./rutas/ruta-crear-usuario/ruta-crear-usuario.component";
 import {RutaActualizarUsuarioComponent} from "./rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component";
+import {RutaVerDetalleUsuarioComponent} from "./rutas/ruta-ver-detalle-usuario/ruta-ver-detalle-usuario.component";
 
 const routes: Routes = [//arreglo de rutas tipado
 
@@ -76,7 +77,9 @@ const routes: Routes = [//arreglo de rutas tipado
           }
         ]
 
-      }
+
+      },
+
 
     ]
   },
@@ -97,7 +100,11 @@ const routes: Routes = [//arreglo de rutas tipado
 
     //componente
     redirectTo: 'no-encontrado'
-  }
+  },
+
+  {
+    path: 'ver-usuario',
+    component: RutaVerDetalleUsuarioComponent}
 
 ];
 
