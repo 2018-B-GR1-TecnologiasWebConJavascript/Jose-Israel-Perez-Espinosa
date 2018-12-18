@@ -79,7 +79,10 @@ const routes: Routes = [//arreglo de rutas tipado
 
 
       },
-
+      {
+        path: 'ver-usuario/:idUsuario', // /menu/ver-usuario
+        component: RutaVerDetalleUsuarioComponent
+      }
 
     ]
   },

@@ -7,23 +7,26 @@ import {UsuarioServiceService} from "../../servicios/usuario-service.service";
   styleUrls: ['./ruta-gestio-usuarios.component.scss']
 })
 export class RutaGestioUsuariosComponent implements OnInit {
-  usuarios= [] ;
 
-  constructor(private readonly _usuarioService: UsuarioServiceService) {
+  usuarios = [];
+
+  // Inyeccion de Dependencias
+  constructor(
+    private readonly _usuarioService: UsuarioServiceService
+  ) {
+
   }
 
   ngOnInit() {
-    this.usuarios=this._usuarioService.usuarios;
-  }
-  eliminar(usuario){
-    console.log('Imprimir',usuario);
-    const indiceUsuarioEliminar=this.usuarios
-      .findIndex((usuarioABuscar)=>{
-        return usuarioABuscar.id==usuario.id;
-      });
-    this.usuarios.splice(indiceUsuarioEliminar,1)
+    // CUANDO ESTA LISTO EL WEB COMPONENT PARA MOSTRARSE
+    this.usuarios = this._usuarioService.usuarios;
   }
 
+  eliminar(usuario) {
+
+    this._usuarioService.eliminar(usuario.id);
+
+  }
 }
 /*
 }

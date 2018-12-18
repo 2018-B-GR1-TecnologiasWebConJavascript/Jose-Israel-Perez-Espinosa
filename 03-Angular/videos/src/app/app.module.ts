@@ -15,6 +15,7 @@ import { RutaActualizarProductoComponent } from './rutas/ruta-actualizar-product
 import { RutaCrearUsuarioComponent } from './rutas/ruta-crear-usuario/ruta-crear-usuario.component';
 import { RutaActualizarUsuarioComponent } from './rutas/ruta-actualizar-usuario/ruta-actualizar-usuario.component';
 import { RutaVerDetalleUsuarioComponent } from './rutas/ruta-ver-detalle-usuario/ruta-ver-detalle-usuario.component';
+import {UsuarioServiceService} from './servicios/usuario-service.service';
 
 @NgModule({
   declarations: [//aquí se declaran los componentes
@@ -31,13 +32,15 @@ import { RutaVerDetalleUsuarioComponent } from './rutas/ruta-ver-detalle-usuario
     RutaCrearUsuarioComponent,
     RutaActualizarUsuarioComponent,
     RutaVerDetalleUsuarioComponent
-  ],
-  imports: [//modulos
+  ],// Components
+  imports: [
     BrowserModule,
     AppRoutingModule
-  ],
-  providers: [],// servicios
-  bootstrap: [AppComponent] //componente principal
+  ],  // Modulos
+  providers: [
+    UsuarioServiceService
+  ], // Servicios
+  bootstrap: [AppComponent] // Componente Principal
 })
 export class AppModule { }
 /*

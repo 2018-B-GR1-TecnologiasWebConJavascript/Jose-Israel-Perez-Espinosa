@@ -18,7 +18,7 @@
     <session id="-701904541">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
@@ -27,8 +27,8 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,12 +41,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="23" />
+          <entry key="HTML" value="24" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="51" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="SCSS" value="4" />
-          <entry key="TypeScript" value="26" />
+          <entry key="TypeScript" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,13 +62,13 @@
           <entry key="HTML" value="222" />
           <entry key="JSON" value="164" />
           <entry key="JavaScript" value="8261" />
-          <entry key="PLAIN_TEXT" value="225" />
-          <entry key="TypeScript" value="771" />
+          <entry key="PLAIN_TEXT" value="234" />
+          <entry key="TypeScript" value="777" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="2" />
+          <entry key="Angular2LanguageService" value="3" />
           <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
@@ -80,31 +80,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.ts">
+        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html">
+        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="2">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,10 +158,11 @@
         <option value="$PROJECT_DIR$/proyecto1/.gitignore" />
         <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.html" />
         <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.ts" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html" />
+        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts" />
+        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html" />
+        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts" />
       </list>
     </option>
   </component>
@@ -272,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,11 +284,45 @@
               <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +419,8 @@
       <workItem from="1544644366607" duration="115000" />
       <workItem from="1544644526616" duration="709000" />
       <workItem from="1544645255370" duration="4826000" />
-      <workItem from="1544823146311" duration="4712000" />
+      <workItem from="1544823146311" duration="5000000" />
+      <workItem from="1545093608947" duration="1591000" />
     </task>
     <task id="LOCAL-00001" summary="Pokedex">
       <created>1542395691998</created>
@@ -431,11 +471,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544650025107</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="servicio">
+      <created>1544828248505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544828248505</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64873000" />
+    <option name="totallyTimeSpent" value="66752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,10 +494,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7704918" visible="true" weight="0.31919643" />
-      <window_info id="Structure" order="1" sideWeight="0.22950819" side_tool="true" visible="true" weight="0.31919643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7681499" visible="true" weight="0.31919643" />
+      <window_info id="Structure" order="1" sideWeight="0.23185012" side_tool="true" visible="true" weight="0.31919643" />
       <window_info id="Favorites" order="2" sideWeight="0.50268817" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
@@ -461,7 +508,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.7157738" visible="true" weight="0.30114567" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.7157738" visible="true" weight="0.30114567" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4784226" side_tool="true" weight="0.28150573" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3289689" />
@@ -490,7 +537,8 @@
     <MESSAGE value=".idea tiene problemas" />
     <MESSAGE value="Merge branch 'master' of https://github.com/2018-B-GR1-TecnologiasWebConJavascript/Jose-Israel-Perez-Espinosa&#10;&#10;# Conflicts:&#10;#&#9;02-typescript/.gitignore&#10;#&#9;proyecto1/.gitignore" />
     <MESSAGE value="crear-actualizar: producto, usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="crear-actualizar: producto, usuario" />
+    <MESSAGE value="servicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="servicio" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/05-callbacks/02-fs/app.js">
@@ -653,22 +701,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
@@ -677,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,42 +723,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="27" column="4" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,6 +748,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -756,17 +767,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="476">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts">
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="2">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
