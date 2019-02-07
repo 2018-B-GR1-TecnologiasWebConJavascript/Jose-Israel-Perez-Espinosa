@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4386c19-9614-450d-bb27-5c1f234bf36c" name="Default Changelist" comment="">
+    <list default="true" id="6bca222f-6140-4540-8be1-b72368ee740a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Jose-Israel-Perez-Espinosa.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-Angular/videos/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-Angular/videos/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,99 +15,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-701904541">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="51" />
-          <entry key="json" value="2" />
-          <entry key="ts" value="2" />
-          <entry key="txt" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="24" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="51" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="SCSS" value="4" />
-          <entry key="TypeScript" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="8261" />
-          <entry key="json" value="164" />
-          <entry key="ts" value="5" />
-          <entry key="txt" value="122" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="222" />
-          <entry key="JSON" value="164" />
-          <entry key="JavaScript" value="8261" />
-          <entry key="PLAIN_TEXT" value="234" />
-          <entry key="TypeScript" value="777" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="Angular2LanguageService" value="3" />
-          <entry key="TypeScriptServerServiceImpl" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Jose-Israel-Perez-Espinosa" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html">
+        <entry file="file://$USER_HOME$/Downloads/router/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="90">
+              <caret line="34" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="36" selection-end-column="7" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts">
+        <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+            <state relative-caret-position="291">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,22 +46,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>push</find>
-      <find>forEach</find>
-      <find>_b.label</find>
-      <find>sent</find>
-      <find>concat</find>
-      <find>bdd.json</find>
-      <find>respuesta</find>
-      <find>respuestain</find>
-      <find>crear</find>
-      <find>fore</find>
+      <find>router</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,182 +62,155 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01-javascript/06-callback-propio.js" />
-        <option value="$PROJECT_DIR$/01-javascript/ejercicio.js" />
-        <option value="$PROJECT_DIR$/01-javascript/Deber.js" />
-        <option value="$PROJECT_DIR$/01-javascript/israel.json" />
-        <option value="$PROJECT_DIR$/01-javascript/01-variables.js" />
-        <option value="$PROJECT_DIR$/01-javascript/07-promesas.js" />
-        <option value="$PROJECT_DIR$/02-typescript/02-observables.ts" />
-        <option value="$PROJECT_DIR$/proyecto1/App.js" />
-        <option value="$PROJECT_DIR$/02-typescript/02-observables.js" />
-        <option value="$PROJECT_DIR$/proyecto1/proyectoobservables.js" />
-        <option value="$PROJECT_DIR$/proyecto1/pokemon.json" />
-        <option value="$PROJECT_DIR$/proyecto1/proyecto1.1.js" />
-        <option value="$PROJECT_DIR$/02-typescript/.gitignore" />
-        <option value="$PROJECT_DIR$/proyecto1/.gitignore" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/back/api/models/Comida.js" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/back/api/models/Rol.js" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/back/config/datastores.js" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/app/rutas/ruta-login/ruta-login.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/app/autorizacion.service.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/app/credenciales.service.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/app/rutas/ruta-login/ruta-login.component.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/index.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/front/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/index.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/back/api/models/Usuario.js" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/back/config/security.js" />
+        <option value="$PROJECT_DIR$/03-Angular/videos/src/index.html" />
+        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.html" />
         <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.ts" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts" />
-        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/back/api/models/Rolesporusuario.js" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/app.rutas.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-home-user/ruta-home-user.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-home/ruta-home.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-login/ruta-login.component.html" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-login/ruta-login.component.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/ExamenBIM2/front/src/app/app-routing.module.ts" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/02-typescript/node_modules" />
-    <handled-path value="$PROJECT_DIR$/03-Angular/videos/node_modules" />
-    <handled-path value="$PROJECT_DIR$/04-backend/video-backend/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/02-typescript/package.json" />
-      <path value="$PROJECT_DIR$/03-Angular/videos/package.json" />
-      <path value="$PROJECT_DIR$/04-backend/video-backend/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/ansi-escapes/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/batch/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/buffer-crc32/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/chardet/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/cli-cursor/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/cli-width/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/connect/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/external-editor/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/figures/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/inquirer/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/inquirer/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/inquirer/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/keypress/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/mimic-fn/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/multiparty/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/mute-stream/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/node.js/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/onetime/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/pause/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/restore-cursor/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/run-async/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/ajax/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/internal-compatibility/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/operators/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/ajax/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/internal-compatibility/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/operators/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/testing/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/src/webSocket/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/testing/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/rxjs/webSocket/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/stream-counter/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/tmp/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/tslib/package.json" />
-      <path value="$PROJECT_DIR$/proyecto1/node_modules/uid2/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-25" />
+    <option name="y" value="1" />
+    <option name="width" value="1280" />
+    <option name="height" value="788" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".gitignore" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="03-Angular" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="03-Angular" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="03-Angular" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Jose-Israel-Perez-Espinosa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jose-Israel-Perez-Espinosa" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="03-Angular" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="03-Angular" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rutas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="03-Angular" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="videos" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rutas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ruta-gestio-usuarios" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="05-callbacks" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ExamenBIM2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ExamenBIM2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ExamenBIM2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ExamenBIM2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ExamenBIM2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rutas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Jose-Israel-Perez-Espinosa" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ExamenBIM2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="rutas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ruta-home" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -327,20 +220,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="ts.external.directory.path" value="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\03-Angular\videos\node_modules\typescript\lib" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="ts.external.directory.path" value="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\ExamenBIM2\front\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\02-typescript" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\proyecto1" />
-      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\02-typescript" />
-      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\01-javascript" />
+      <recent name="C:\Users\israe\Documents\GitHub\Jose-Israel-Perez-Espinosa\ExamenBIM2\front\src\app\rutas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,134 +240,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.proyecto1.1.js">
-    <configuration name="02-observables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02-observables.js" working-dir="$PROJECT_DIR$/02-typescript">
-      <method v="2" />
-    </configuration>
-    <configuration name="07-promesas.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="07-promesas.js" working-dir="$PROJECT_DIR$/01-javascript">
-      <method v="2" />
-    </configuration>
-    <configuration name="App.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/proyecto1">
-      <method v="2" />
-    </configuration>
-    <configuration name="proyecto1.1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="proyecto1.1.js" working-dir="$PROJECT_DIR$/proyecto1">
-      <method v="2" />
-    </configuration>
-    <configuration name="proyectoobservables.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="proyectoobservables.js" working-dir="$PROJECT_DIR$/proyecto1">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.App.js" />
-      <item itemvalue="Node.js.07-promesas.js" />
-      <item itemvalue="Node.js.02-observables.js" />
-      <item itemvalue="Node.js.proyectoobservables.js" />
-      <item itemvalue="Node.js.proyecto1.1.js" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.proyecto1.1.js" />
-        <item itemvalue="Node.js.proyectoobservables.js" />
-        <item itemvalue="Node.js.02-observables.js" />
-        <item itemvalue="Node.js.App.js" />
-        <item itemvalue="Node.js.07-promesas.js" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4386c19-9614-450d-bb27-5c1f234bf36c" name="Default Changelist" comment="" />
-      <created>1541369667599</created>
+      <changelist id="6bca222f-6140-4540-8be1-b72368ee740a" name="Default Changelist" comment="" />
+      <created>1549210225197</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541369667599</updated>
-      <workItem from="1541369668746" duration="489000" />
-      <workItem from="1541370222937" duration="21000" />
-      <workItem from="1541431549932" duration="2129000" />
-      <workItem from="1541444512010" duration="6177000" />
-      <workItem from="1542300189827" duration="671000" />
-      <workItem from="1542302052083" duration="2051000" />
-      <workItem from="1542304146492" duration="4000" />
-      <workItem from="1542315678335" duration="10283000" />
-      <workItem from="1542326047713" duration="8000" />
-      <workItem from="1542378734665" duration="1564000" />
-      <workItem from="1542393047360" duration="2703000" />
-      <workItem from="1542578639544" duration="1357000" />
-      <workItem from="1542580380055" duration="4758000" />
-      <workItem from="1543583982667" duration="612000" />
-      <workItem from="1543593915158" duration="10884000" />
-      <workItem from="1543846781968" duration="7818000" />
-      <workItem from="1543863394156" duration="2873000" />
-      <workItem from="1543877983960" duration="109000" />
-      <workItem from="1544644366607" duration="115000" />
-      <workItem from="1544644526616" duration="709000" />
-      <workItem from="1544645255370" duration="4826000" />
-      <workItem from="1544823146311" duration="5000000" />
-      <workItem from="1545093608947" duration="1591000" />
+      <updated>1549210225197</updated>
+      <workItem from="1549210226304" duration="599000" />
+      <workItem from="1549389409771" duration="784000" />
+      <workItem from="1549401527052" duration="637000" />
+      <workItem from="1549402184641" duration="826000" />
+      <workItem from="1549403678013" duration="1717000" />
+      <workItem from="1549481632055" duration="404000" />
+      <workItem from="1549482698934" duration="6804000" />
+      <workItem from="1549489788036" duration="4381000" />
+      <workItem from="1549494374700" duration="4015000" />
+      <workItem from="1549507031106" duration="8943000" />
+      <workItem from="1549516029681" duration="647000" />
+      <workItem from="1549516721615" duration="470000" />
+      <workItem from="1549517333667" duration="442000" />
+      <workItem from="1549559249130" duration="2471000" />
+      <workItem from="1549566501970" duration="7105000" />
     </task>
-    <task id="LOCAL-00001" summary="Pokedex">
-      <created>1542395691998</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1542395691998</updated>
-    </task>
-    <task id="LOCAL-00002" summary="observables ts corregidos">
-      <created>1543594915606</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1543594915607</updated>
-    </task>
-    <task id="LOCAL-00003" summary="proyecto: lee json, funciona todo menos el menú">
-      <created>1543856025942</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1543856025943</updated>
-    </task>
-    <task id="LOCAL-00004" summary="proyecto: lee json, funciona todo">
-      <created>1543866251692</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1543866251692</updated>
-    </task>
-    <task id="LOCAL-00005" summary="añadido gitignore">
-      <created>1544644737797</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1544644737797</updated>
-    </task>
-    <task id="LOCAL-00006" summary=".idea tiene problemas">
-      <created>1544644981339</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1544644981339</updated>
-    </task>
-    <task id="LOCAL-00007" summary="crear-actualizar: producto, usuario">
-      <created>1544650025107</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1544650025107</updated>
-    </task>
-    <task id="LOCAL-00008" summary="servicio">
-      <created>1544828248505</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1544828248505</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66752000" />
+    <option name="totallyTimeSpent" value="40245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,22 +283,21 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7681499" visible="true" weight="0.31919643" />
-      <window_info id="Structure" order="1" sideWeight="0.23185012" side_tool="true" visible="true" weight="0.31919643" />
-      <window_info id="Favorites" order="2" sideWeight="0.50268817" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25074404" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52157736" weight="0.28150573" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.7157738" visible="true" weight="0.30114567" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4784226" side_tool="true" weight="0.28150573" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32394367" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20458265" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -522,211 +308,112 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/examen-01/pokemon/app.js" />
+        <option value="$PROJECT_DIR$/02-typescript/02-observables.js" />
       </list>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pokedex" />
-    <MESSAGE value="observables ts corregidos" />
-    <MESSAGE value="proyecto: lee json, funciona todo menos el menú" />
-    <MESSAGE value="proyecto: lee json, funciona todo" />
-    <MESSAGE value="añadido gitignore" />
-    <MESSAGE value=".idea tiene problemas" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/2018-B-GR1-TecnologiasWebConJavascript/Jose-Israel-Perez-Espinosa&#10;&#10;# Conflicts:&#10;#&#9;02-typescript/.gitignore&#10;#&#9;proyecto1/.gitignore" />
-    <MESSAGE value="crear-actualizar: producto, usuario" />
-    <MESSAGE value="servicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="servicio" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-callbacks/02-fs/app.js">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/0-is.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/ejercicio.js">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/app/credenciales.service.ts" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/app/autorizacion.service.ts" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/e2e/protractor.conf.js" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/app/rutas/ruta-login/ruta-login.component.html" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/back/config/datastores.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="243">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/06-ejemplo.txt" />
-    <entry file="file://$PROJECT_DIR$/01-javascript/06-callback-propio.js">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/back/api/models/Rol.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/clase.js">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/back/api/models/Comida.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="141">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/israel.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/07-promesas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/Deber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-typescript/02-observables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="11" selection-start-line="17" selection-start-column="3" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/app/rutas/ruta-login/ruta-login.component.ts" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/front/src/app/app.component.html" />
     <entry file="file://$PROJECT_DIR$/01-javascript/01-variables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto1/App.js">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas.ts" />
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/node_modules/@angular/router/src/router_module.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="263" column="39" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="39" />
+        <state relative-caret-position="2295">
+          <caret line="165" column="4" selection-start-line="165" selection-start-column="4" selection-end-line="165" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto1/proyectoobservables.js">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/back/config/security.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" selection-start-line="5" selection-start-column="18" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/02-arreglos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/03-funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto1/node_modules/rxjs/internal/util/subscribeToResult.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto1/pokemon.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="589" selection-start-column="589" selection-end-column="589" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-javascript/04-operadores.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto1/proyecto1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto1/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-typescript/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-crear-producto/ruta-crear-producto.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-productos/ruta-gestio-productos.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-menu/ruta-menu.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -735,59 +422,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.html">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/back/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/back/api/models/Rolesporusuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-home/ruta-home.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.scss">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="-333">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-inicio/ruta-inicio.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state>
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/servicios/usuario-service.service.ts">
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta404/ruta404.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="-187">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/rutas/ruta-gestio-usuarios/ruta-gestio-usuarios.component.html">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-home/ruta-home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-home-user/ruta-home-user.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-login/ruta-login.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-login/ruta-login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app.rutas.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-home-user/ruta-home-user.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/rutas/ruta-login/ruta-login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app.module.ts">
+    <entry file="file://$USER_HOME$/Downloads/router/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/router/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="153">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-Angular/videos/src/app/app-routing.module.ts">
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" column="204" selection-start-line="15" selection-start-column="204" selection-end-line="15" selection-end-column="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/router/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="36" selection-end-column="7" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/router/src/app/heroes/hero.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/router/src/app/heroes/heroes.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/router/src/app/heroes/heroes-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExamenBIM2/front/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
