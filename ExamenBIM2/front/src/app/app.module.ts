@@ -1,45 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
-import {HttpClientModule} from "@angular/common/http";
-import { RutaHomeComponent } from './rutas/ruta-home/ruta-home.component';
-
-
-import { RutaHomeUserComponent } from './rutas/ruta-home-user/ruta-home-user.component';
-import {Router, RouterModule} from "@angular/router";
-import {AppRoutingModule, RUTAS} from "./app-routing.module";
-
-
+import { RutaHomeUsrComponent } from './rutas/ruta-home-usr/ruta-home-usr.component';
+import { RutaHomeAdmComponent } from './rutas/ruta-home-adm/ruta-home-adm.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
-    RouterModule.forRoot( RUTAS)
-  ],
   declarations: [
     AppComponent,
     RutaLoginComponent,
-    RutaHomeComponent,
-    RutaHomeUserComponent,
-
-
+    RutaHomeUsrComponent,
+    RutaHomeAdmComponent
   ],
-
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-  constructor(RUTAS: Router) {
-    // Use a custom replacer to display function names in the route configs
-    // const replacer = (key, value) => (typeof value === 'function') ? value.name : value;
-
-    // console.log('Routes: ', JSON.stringify(router.config, replacer, 2));
-  }
-}
+export class AppModule { }

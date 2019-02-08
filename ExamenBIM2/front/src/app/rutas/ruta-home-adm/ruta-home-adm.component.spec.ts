@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RutaHomeComponent } from './ruta-home.component';
+import { RutaHomeAdmComponent } from './ruta-home-adm.component';
 
-describe('RutaHomeComponent', () => {
-  let component: RutaHomeComponent;
-  let fixture: ComponentFixture<RutaHomeComponent>;
+describe('RutaHomeAdmComponent', () => {
+  let component: RutaHomeAdmComponent;
+  let fixture: ComponentFixture<RutaHomeAdmComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RutaHomeComponent ]
+      declarations: [ RutaHomeAdmComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RutaHomeComponent);
+    fixture = TestBed.createComponent(RutaHomeAdmComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

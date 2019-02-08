@@ -1,28 +1,10 @@
-import {RouterModule, Routes} from '@angular/router';
 import { NgModule } from '@angular/core';
-import {RutaLoginComponent} from "./rutas/ruta-login/ruta-login.component";
-import {RutaHomeComponent} from "./rutas/ruta-home/ruta-home.component";
-import {RutaHomeUserComponent} from "./rutas/ruta-home-user/ruta-home-user.component";
+import { Routes, RouterModule } from '@angular/router';
 
-
-
-export const RUTAS: Routes = [
-
-
-  {path: 'login',  component: RutaLoginComponent},
-  {path: 'home',component: RutaHomeComponent},
-  {path: 'home_usr',component: RutaHomeUserComponent},
-  {path: '', redirectTo: 'login',pathMatch: 'full',}
-
-];
+const routes: Routes = [];
 
 @NgModule({
-
-    imports: [RouterModule.forRoot(RUTAS,
-      {
-        enableTracing: false, // <-- debugging purposes only
-              })],
-
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
